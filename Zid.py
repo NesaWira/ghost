@@ -429,7 +429,7 @@ def bot(op):
                 cl.sendMessage(msg)
 
 #--------------------------------------------------------
-	   elif "Tagall" in msg.text:
+	   elif "Tagall" == msg.text:
 		group = cl.getGroup(msg.to)
 		mem = [contact.mid for contact in group.members]
 		for mm in mem:
