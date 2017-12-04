@@ -55,17 +55,15 @@ helpMessage ="""
 ❂͜͡☆➣ 『Welcome』
 ❂͜͡☆➣ 『Status』
 ┏━━━━ೋ• ❄ •ೋ━━━━━┓
-    SelfBot ZiAd
+    
 ┗━━━━ೋ• ❄ •ೋ━━━━━┛
 ============================
-➣➣SUPPORTED BY: ᴢɪᴀᴅ~ｄｅｓυ
-➣Open Sewa SelfBot 30K/Bulan
-➣➣Contact Me: https://line.me/ti/p/~anaichiro
+
 """
 
 mid = cl.getProfile().mid
-Creator="u6dc040137eac599ca446f80f45bbd93c"
-admin=[",u6dc040137eac599ca446f80f45bbd93c"]
+Creator="u0710a42a75e0a476ad687639db8c069c"
+admin=[",u0710a42a75e0a476ad687639db8c069c"]
 
 contact = cl.getProfile()
 profile = cl.getProfile()
@@ -431,7 +429,7 @@ def bot(op):
                 cl.sendMessage(msg)
 
 #--------------------------------------------------------
-	   elif "Tagall" == msg.text:
+	   elif "Tagall" in msg.text:
 		group = cl.getGroup(msg.to)
 		mem = [contact.mid for contact in group.members]
 		for mm in mem:
